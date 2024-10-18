@@ -30,6 +30,9 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+@Preview(showBackground = true)
+@Composable
+
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
