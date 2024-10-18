@@ -93,6 +93,10 @@ fun BasicCompose(adit: Modifier = Modifier) {
             )
         )
 
+        Image(painter = painterResource(id = R.drawable.krs),
+            contentDescription = null,
+            modifier = Modifier.size(300.dp)
+        )
 
     }
 
