@@ -76,6 +76,14 @@ fun BasicCompose(adit: Modifier = Modifier) {
                 fontStyle = FontStyle.Italic
             )
         )
+
+        Text(text = "Aditya Wirajaya Permono",
+            style = TextStyle(
+                fontSize = 25.sp,
+                fontStyle = FontStyle.Italic,
+            )
+        )
+
     }
 
 }
