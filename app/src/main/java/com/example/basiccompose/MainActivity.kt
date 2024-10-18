@@ -32,6 +32,10 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
+fun BasicCompose(adit: Modifier = Modifier){
+
+}
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
