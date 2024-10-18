@@ -85,6 +85,15 @@ fun BasicCompose(adit: Modifier = Modifier) {
             )
         )
 
+        Text(text = "20220140052",
+            style = TextStyle(
+                fontSize = 50.sp,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Bold
+            )
+        )
+
+
     }
 
 }
