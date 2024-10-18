@@ -47,6 +47,8 @@ fun BasicCompose(adit: Modifier = Modifier) {
     {
     Text(text = "Indonesia", modifier = adit)
     Text(text = "Versus")
+    Image(painter = painterResource(id = R.drawable.fifaaaaaaa),
+    contentDescription = null)
 }
 
 }
