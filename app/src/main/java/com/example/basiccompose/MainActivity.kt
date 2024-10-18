@@ -45,10 +45,25 @@ fun BasicCompose(adit: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally
     )
     {
-    Text(text = "Indonesia", modifier = adit)
-    Text(text = "Versus")
-    Image(painter = painterResource(id = R.drawable.fifaaaaaaa),
-    contentDescription = null)
+        Text(text = "Indonesia",
+            modifier = adit,
+            fontSize = 70.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold
+        )
+
+        Text(text = "Versus",
+            style = TextStyle(
+                fontSize = 60.sp,
+                fontStyle = FontStyle.Italic,
+                color = Color.Blue
+            )
+        )
+
+        Image(painter = painterResource(id = R.drawable.fifaaaaaaa),
+            contentDescription = null,
+            modifier = Modifier.size(200.dp)
+        )
 }
 
 }
