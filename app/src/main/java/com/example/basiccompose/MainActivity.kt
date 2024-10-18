@@ -100,8 +100,6 @@ fun BasicCompose(adit: Modifier = Modifier) {
             modifier = Modifier
                 .size(300.dp)
                 .clip(RoundedCornerShape(200.dp))
-
-
         )
 
     }
